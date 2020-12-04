@@ -1,3 +1,8 @@
+/** @file main.cc
+	@brief main file
+	@author Gabriele Chiossi
+	@date December 3rd 2020
+*/
 #include <iostream>
 #include <string>
 #include <fstream>
@@ -5,6 +10,14 @@
 #include "function.h"
 using namespace std;
 
+/**
+ *****************************************************************************************
+ *  @brief      main function
+ *
+ *  @param      int argc, and char **argv
+ *
+ *  @return     integer 0
+ ****************************************************************************************/
 int main(int argc, char **argv){
     if(argv[1]){
         if(argv[2]){
