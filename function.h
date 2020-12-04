@@ -42,7 +42,7 @@ int countLine(string pName){
 int countChar(string pName){
     int count = 0;
     for(int i = 0; i < pName.length(); i++){
-        if(pName[i] != '/n' || pName[i] != '/t' || pName[i] != ' '){
+        if(!isspace(pName[i])){
             count++;
         }
     }
