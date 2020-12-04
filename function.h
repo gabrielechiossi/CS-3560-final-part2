@@ -27,13 +27,13 @@ int countLine(string pName){
             count++;
         }
     }
-
     return count;
 }
 
 /**
  *****************************************************************************************
- *  @brief      counts the total number of char in a string
+ *  @brief      counts the total number of char in a string, this function will count any
+ *              except for white spaces
  *
  *  @param      pName - string passed to the function
  *
